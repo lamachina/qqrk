@@ -11,7 +11,7 @@ const images = importAll(require.context('/public/images', false, /\.(jpg|jpeg|p
 const App = () => {
   return (
     <div className="App">
-      <h1>Image Gallery</h1>
+      <h1>Qarky</h1>
       <ImageGrid images={images} />
     </div>
   );
