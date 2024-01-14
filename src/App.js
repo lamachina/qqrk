@@ -6,7 +6,7 @@ import ImageGrid from './ImageGrid';
 const importAll = (r) => r.keys().map(r);
 
 // Import all images from the public/images folder
-const images = importAll(require.context('./public/images', false, /\.(jpg|jpeg|png)$/));
+const images = importAll(require.context('/public/images', false, /\.(jpg|jpeg|png)$/));
 
 const App = () => {
   return (
