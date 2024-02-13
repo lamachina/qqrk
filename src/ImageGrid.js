@@ -8,7 +8,7 @@ const ImageGrid = ({ images }) => {
                 <img
                     src={image}
                     alt={`Image ${index}`}
-                    style={{ width: '144px', height: '144px', padding: '2px' }}
+                    style={{ width: '72px', height: '72px', padding: '1px' }}
                 />
             ))}
         </Container>
